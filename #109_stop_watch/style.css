@@ -1,0 +1,47 @@
+body {
+    background: #00ff88;
+    display: flex;
+}
+
+.watch {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+    background: rgb(51, 51, 51);
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+.display {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+}
+
+#time {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 12px 24px;
+    background: rgb(255, 0, 43);
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
